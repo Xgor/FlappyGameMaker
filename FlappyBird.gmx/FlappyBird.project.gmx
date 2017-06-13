@@ -4,7 +4,10 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\sound_coin</sound>
+    <sound>sound\sound_hurt</sound>
+  </sounds>
   <sprites name="sprites">
     <sprite>sprites\sprite2</sprite>
     <sprite>sprites\sprite3</sprite>
@@ -15,11 +18,16 @@
     <background>background\background1</background>
   </backgrounds>
   <paths name="paths"/>
+  <fonts name="fonts">
+    <font>fonts\font_score</font>
+    <font>fonts\font_highScore</font>
+  </fonts>
   <objects name="objects">
     <object>objects\object0</object>
     <object>objects\obj_pipe</object>
     <object>objects\obj_pipes</object>
     <object>objects\obj_coin</object>
+    <object>objects\obj_score</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
